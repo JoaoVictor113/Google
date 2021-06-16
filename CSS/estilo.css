@@ -1,0 +1,135 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: white;     
+    }
+
+    .lista {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .lista > nav> ul{
+        display: flex;
+    }
+
+    .lista > nav> ul > li { 
+        list-style-type: none;
+    }
+
+    .lista > nav > ul > #blue > a {
+        background-color: #1A73E8;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 5px;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }   
+
+    .lista > nav > ul > #blue > a:hover{
+        text-decoration: none;
+    }
+
+    .lista > nav > ul > li > a{
+        color: #606060;
+        text-decoration: none;
+    }
+
+    .lista > nav > ul > li > a:hover{
+        text-decoration: underline;
+    }
+
+    .google {
+        height: 630px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .google > #center {
+        width: 550px;
+        height: max-content;
+    }
+
+    .google > #center > #img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pesquisa {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pesquisa >input  {
+        height: 40px;
+        width: 700px;
+        border-radius: 20px 20px 20px 20px;
+        margin-top: 25px;
+        color: #808080;
+        border: 1px solid #ccc;
+        outline: 0;
+        padding: 20px   ;
+    }
+
+    .botao {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .botao > p {
+        background-color: #F8F9FA;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 5px;
+        color: #606060;
+    }  
+
+    .rodape {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        margin-top: 800px;
+        bottom: 0%;
+        background-color: #edeef0 ;
+    }
+
+    .rodape > nav > ul{
+        display: flex;
+    }
+
+
+    .rodape > nav > ul > li {
+        margin: 20px;    
+        list-style-type: none;
+        color:#606060;
+    }
+
+    .br {
+      width: 98%;
+      height: 30px;
+      padding: 8px;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      position: absolute;  
+      bottom: 55;
+      background-color: #edeef0;
+    }
+
+    .br > p{
+        display: flex ;
+        color: #606060;
+        margin: 20px    ;
+    }   
